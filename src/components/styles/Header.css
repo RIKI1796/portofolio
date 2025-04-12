@@ -1,0 +1,41 @@
+.cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.profil {
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 150px;
+  margin-top: 50px;
+  text-align: center;
+  animation: menghilang linear;
+  animation-timeline: view();
+  animation-range: exit 0 cover 100%;
+}
+.profil img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+p {
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.github {
+  font-size: 3rem;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.github a {
+  color: black;
+}

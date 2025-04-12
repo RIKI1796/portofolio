@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:  gray;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+}
+a {
+    text-decoration-line: none;
+    color: white;
+}
