@@ -14,27 +14,33 @@ body::-webkit-scrollbar {
 
 @keyframes geserkiri {
   from {
-    transform: translateX(1000px);
+    transform: translateX(40px);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 @keyframes geserkanan {
   from {
-    transform: translateX(-1000px);
+    transform: translateX(-40px);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
 @keyframes geseratas {
   from {
-    transform: translateY(1000px);
+    transform: translateY(40px);
+    opacity: 0;
   }
   to {
     transform: translateY(0);
+    opacity: 1;
   }
 }
 

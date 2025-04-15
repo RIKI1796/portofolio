@@ -74,3 +74,42 @@
 .timesmk {
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 20px;
+  }
+  .riwayat {
+    text-align: center;
+  }
+  .sekolah {
+    gap: 1rem;
+  }
+  .nmsd {
+    text-align: center;
+    transform: translateX(5px);
+  }
+  .sekolah h1 {
+    font-size: 5px;
+  }
+  .gmbrsd {
+    height: 5rem;
+  }
+  .gmbrsmk {
+    height: 5rem;
+  }
+  .icon {
+    font-size: 40px;
+  }
+  .riwayat h1 {
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: "Winky Sans";
+  }
+  .html {
+    font-size: 50px;
+  }
+  .riwayat img {
+    width: 7rem;
+  }
+}
