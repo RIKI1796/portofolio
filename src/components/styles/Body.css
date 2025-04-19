@@ -76,6 +76,9 @@
 }
 
 @media screen and (max-width: 425px) {
+  .icon {
+    animation-range: entry 0 cover 40%;
+  }
   h1 {
     font-size: 20px;
   }

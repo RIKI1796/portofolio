@@ -24,7 +24,7 @@ function Project() {
           <h1 className="third">Third Project</h1>
           <img src={Warung} alt="" />
           <h2 className="jdlwrng">Web Warung Makan</h2>
-          <a href="warung-makan-alpha.vercel.app">View</a>
+          <a href="https://warung-makan-alpha.vercel.app">View</a>
         </div>
       </div>
     </div>

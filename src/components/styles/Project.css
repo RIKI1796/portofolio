@@ -65,6 +65,9 @@
 }
 
 @media screen and (max-width: 425px) {
+  .project {
+    padding-bottom: 10rem;
+  }
   .projectlist {
     gap: 1rem;
   }

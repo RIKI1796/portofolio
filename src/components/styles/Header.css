@@ -41,9 +41,12 @@ p {
 }
 
 @media screen and (max-width: 425px) {
+  .profil {
+    padding-bottom: 20rem;
+  }
   .profil img {
-    width: 7rem;
-    height: 7rem;
+    width: 11rem;
+    height: 11rem;
   }
   p {
     font-size: 1rem;
@@ -52,5 +55,6 @@ p {
   }
   .profil h1 {
     font-size: 20px;
+    margin-top: 20px;
   }
 }
